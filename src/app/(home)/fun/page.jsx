@@ -24,7 +24,7 @@ const page = () => {
 				>
 					<section className="grid h-screen w-full place-content-center ">
 						<p className="flex items-center gap-2 text-3xl font-bold uppercase ">
-							<span>Hover me</span>
+							<span>Hover Me</span>
 						</p>
 					</section>
 				</MouseImageTrail>
