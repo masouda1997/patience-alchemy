@@ -8,7 +8,7 @@ const MouseImageTrail = ({
 	rotationRange,
 }) => {
 	const [scope, animate] = useAnimate();
-	const lastRenderPosition = useRef({ x: 0, y: 0});
+	const lastRenderPosition = useRef({ x: 0, y: 0 });
 	const imageRenderCount = useRef(0);
 
 	const handleMouseMove = (e) => {
